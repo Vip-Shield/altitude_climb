@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cantagalo.css">
+    <script src="script.js" defer></script>
+    <title>Cursos</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/teju-transparente.ico">
+
+<!-- INICIO DO BLOQUEADOR -->
+<script type="text/javascript">
+    var message="Desculpe, o clique com o botão direito foi desativado.";
+    function clickIE() {if (document.all) {(message);return false;}}
+    function clickNS(e) {if
+    (document.layers||(document.getElementById&&!document.all)) {
+        if (e.which==2||e.which==3) {(message);return false;}}}
+    if (document.layers)
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+    document.oncontextmenu=new Function("return false")
+</script>
+
+
+
+<script>
+    document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+        }
+    }
+</script>
+
+
+
+<script>
+    function disableselect(e) {
+        return false;
+    }
+
+    function reEnable() {
+        return true;
+    }
+
+    document.onselectstart = new Function("return false");
+
+    if (window.sidebar) {
+        document.onmousedown = disableselect;
+        document.onclick = reEnable;
+    }
+</script>
+<!-- FINAL DO BLOQUEADOR -->
+
+
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+
+<img src="img/logo_altitude_climb.png" width="90px"></a>
+
+    <nav>
+        <ul>
+            <li><a href=file:///C:/Users/rodri/Desktop/Altitude%20Climb/Site%20Altitude%20Climb/index.html>HOME</a></li>
+           <!-- Início do dropdown Cursos -->
+            <li class="dropdown">
+                <a href="#">CURSOS</a>
+            <div class="dropdown-menu">
+                <a href="src/cursos/aula-experimental.html">Aula Experimental</a>
+                <a href="src/cursos/curso-basico.html">Curso básico de Escalada</a>
+            </div>
+        </li>
+        <!-- Final do dropdown Cursos -->
+            <li><a href="#">PASSEIOS</a></li>
+            <!-- Início do dropdown Trilha -->
+            <li class="dropdown">
+                <a href="#">TRILHAS</a>
+                <div class="dropdown-menu">
+                    <a href="src/petro-x-tere/petro-x-tere.html">TRILHA Petro x Terê</a>
+                    <a href="">TRILHA Pedra da Gávea</a>
+                    <a href="">TRILHA Pedra do Telégrafo</a>
+                    <a href="">TRILHA Urca</a>
+                </div>
+            </li>
+            <!-- Final do dropdown Trilha -->
+            <li><a href="#">ESCALADAS</a></li>
+            <li><a href="http://altitudeclimb-brasil.blogspot.com.br/">BLOG</a></li>
+        </ul>
+    </nav>
+
+    <div class="btn-contato">
+        <a href="https://wa.me/5521982539175&text=Fale CONOSCO! Guias Priscila & Rodrigo"><button class="contato"><b>CONTATO</b></button></a>
+    </div>
+
+            </div>
+
+        </div>
+    </header>
+
+<section class="banner">
+    <h1>CURSOS DE ESCALADA DA <span>ALTITUDE CLIMB</span></h1>
+</section>
+
+
+<section class="sec2">
+   <div class="div2">
+       
+       <p class="paragrafo">  <span class="span">"Altitude Climb"</span> 
+        
+        
+        
+       </p>
+       <br>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Início do Código WhatsApp suspenso -->
+<div class="whats">
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/5521964827877?text=Olá, Aventureiro! Em que posso ajudá-lo?" target="_blank" class="hover">
+<img src="img/logo_whatsapp.png" width="60px" alt="Fale conosco pelo Whatsapp" title="Fale conosco pelo Whatsapp">
+</a>
+</div>
+<!-- Final do Código WhatsApp -->
+
+
+<script src="menu.js"></script>
+<footer>
+    <p>&copy; 2025 Trilhas Rio de Janeiro. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
